@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/css/uikit.min.css" />
 </head>
 <body>
-    <header class="uk-background-muted uk-padding-small">
+    <header class="uk-background-muted uk-padding-small" uk-sticky="offset: 0;">
         <div class="uk-container">
             <div class="uk-flex uk-flex-between uk-flex-middle">
                 <!-- Logo and Site Name -->
@@ -22,10 +22,10 @@
                 <!-- Navigation Menu -->
                 <nav>
                     <ul class="uk-navbar-nav uk-visible@m">
-                        <li><a href="#">首頁</a></li>
-                        <li><a href="products.html">產品介紹</a></li>
-                        <li><a href="#">關於我們</a></li>
-                        <li><a href="#">聯絡我們</a></li>
+                        <li><a href="index.html">首頁</a></li>
+                        <li><a href="about.html">關於我們</a></li>
+                        <li><a href="products.html">產品列表</a></li>
+                        <li><a href="contact.html">聯絡我們</a></li>
                         <li><a href="backup/index.html">舊網站</a></li>
                     </ul>
                     
@@ -43,10 +43,10 @@
         <div class="uk-offcanvas-bar">
             <button class="uk-offcanvas-close" type="button" uk-close></button>
             <ul class="uk-nav uk-nav-default">
-                <li><a href="#">首頁</a></li>
-                <li><a href="products.html">產品介紹</a></li>
-                <li><a href="#">關於我們</a></li>
-                <li><a href="#">聯絡我們</a></li>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="products.html">產品列表</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
                 <li><a href="backup/index.html">舊網站</a></li>
 
             </ul>
@@ -61,19 +61,22 @@
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
                         <h3 class="uk-card-title">品牌形象吸睛且現代化</h3>
-                        <p>店面設計以亮眼的藍色系為主，搭配醒目的霓虹燈招牌，成功吸引顧客目光。店內則運用溫暖的燈光營造舒適氛圍，整齊有序的商品陳列與透明玻璃展示櫃，呈現乾淨、專業且具現代感的用餐環境。</p>
+                        <p class="uk-dropcap">
+                            店面設計以亮眼的藍色系為主，搭配醒目的霓虹燈招牌，成功吸引顧客目光。店內則運用溫暖的燈光營造舒適氛圍，整齊有序的商品陳列與透明玻璃展示櫃，呈現乾淨、專業且具現代感的用餐環境。</p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
                         <h3 class="uk-card-title">餐點種類豐富且口味多元</h3>
-                        <p>店內提供「人氣精選」、「碳烤吐司」與「碳烤三明治」等多樣系列，從雞腿排蛋三明治、海鹽牛五花三明治到蔬菜蛋吐司等，滿足不同顧客的口味需求。餐點搭配新鮮蔬菜、起司與經典福源花生醬，將傳統風味與創新口感結合，呈現出獨特的早午餐體驗。</p>
+                        <p class="uk-dropcap">
+                            店內提供「人氣精選」、「碳烤吐司」與「碳烤三明治」等多樣系列，從雞腿排蛋三明治、海鹽牛五花三明治到蔬菜蛋吐司等，滿足不同顧客的口味需求。餐點搭配新鮮蔬菜、起司與經典福源花生醬，將傳統風味與創新口感結合，呈現出獨特的早午餐體驗。</p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
                         <h3 class="uk-card-title">食材品質嚴選且標示透明</h3>
-                        <p>店家特別強調食材來源，使用國產豬肉、美國牛五花等高品質肉品，並清楚標示產地，讓顧客吃得安心。此外，餐點多為現點現做，搭配透明展示櫃，讓新鮮食材與製作過程一目了然，進一步提升顧客的信任感與滿意度。</p>
+                        <p class="uk-dropcap">
+                            店家特別強調食材來源，使用國產豬肉、美國牛五花等高品質肉品，並清楚標示產地，讓顧客吃得安心。此外，餐點多為現點現做，搭配透明展示櫃，讓新鮮食材與製作過程一目了然，進一步提升顧客的信任感與滿意度。</p>
                     </div>
                 </div>
             </div>
@@ -133,7 +136,7 @@
             </div>
         </div>
     </section>
-
+    
     <!-- Footer Section -->
     <footer class="uk-section uk-section-default uk-padding-small" style="background-color: #f7f7f7;">
         <div class="uk-container">
